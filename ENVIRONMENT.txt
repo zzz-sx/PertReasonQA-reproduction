@@ -1,0 +1,41 @@
+===== DATE =====
+2026-10-18T15:52:30+08:00
+
+===== PYTHON =====
+Python 3.12.13
+/usr/local/bin/python
+
+===== PIP =====
+pip 26.2.1 from /usr/local/lib/python3.12/site-packages/pip (python 3.12)
+
+===== TORCH / CUDA =====
+torch = 2.13.0+cu130
+cuda_available = True
+cuda_version = 13.0
+gpu = NVIDIA A10
+
+===== VLLM =====
+vllm = 0.27.1
+
+===== TRANSFORMERS =====
+transformers = 5.16.1
+
+===== MODEL FILES =====
+config.json	663 bytes
+configuration.json	2 bytes
+generation_config.json	243 bytes
+.gitattributes	1519 bytes
+LICENSE	11343 bytes
+merges.txt	1671839 bytes
+model-00001-of-00004.safetensors	3945441440 bytes
+model-00002-of-00004.safetensors	3864726352 bytes
+model-00003-of-00004.safetensors	3864726424 bytes
+model-00004-of-00004.safetensors	3556377672 bytes
+model.safetensors.index.json	27752 bytes
+README.md	6240 bytes
+tokenizer_config.json	7305 bytes
+tokenizer.json	7031645 bytes
+vocab.json	2776833 bytes
+
+===== VLLM PROCESS =====
+root       12915    1130  1 11:54 pts/0    00:03:35 /usr/local/bin/python /usr/local/bin/vllm serve /mnt/workspace/models/Qwen2.5-7B-Instruct --served-model-name Q

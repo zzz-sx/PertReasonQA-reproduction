@@ -1,0 +1,11 @@
+{
+  "dataset_sha256": "11d42f40702769332a295e0945e10ffa33554f884bcd9c90e34c029266090695",
+  "stage3_sha256": "108920825d8876c2bf8ff5754f719263e12eaf6e79a0e220352730f92af56594",
+  "config_sha256": "e479b211b57061f5b0e9ffa53d832d171de84be62b5be44ef8c9c19ff9dd3553",
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "api_url": "http://127.0.0.1:8000/v1",
+  "run_type": "original process_sample + checkpoint wrapper",
+  "input_rows": 3668,
+  "checkpoint_policy": "fsync per record, snapshots every 100 processed",
+  "initial_time_utc": "2026-10-18T04:20:59+00:00"
+}
